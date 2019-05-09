@@ -1,5 +1,11 @@
+import './home.less';
+
 const Home = () => {
-    return <div>Welcome to Next.js!</div>;
+    return (
+        <div className="home-container">
+            Welcome to Next.js!
+        </div>
+    );
 };
 
 export default Home;
